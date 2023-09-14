@@ -2,7 +2,8 @@
     width: 100%;
     height: 8vh;
     padding: 2vh;
-    background-color: #CCC;
+    background: rgb(56,162,186);
+    background: linear-gradient(128deg, rgba(56,162,186,1) 0%, rgba(35,30,112,1) 100%);
     margin-top: -2vh;
     margin-left: -2vh;
 }
@@ -11,11 +12,12 @@
     float: left;
     margin-left: 10vh;
     list-style:square;
-    color: red;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navPrincipal ul li a{
     color: black;
+    
 }
 
 a{
@@ -26,12 +28,13 @@ a:hover{
 }
 
 footer{
-   background-color: #CCC;
+    background: rgb(56,162,186);
+    background: linear-gradient(128deg, rgba(56,162,186,1) 0%, rgba(35,30,112,1) 100%);
    width: 100%;
    height: 10vh;
    padding: 2vh;
    text-align: center;
-   margin-top: 34vh; 
+   margin-top: 2vh; 
 }
 
 .BannerPrincipal{
@@ -40,7 +43,7 @@ footer{
     margin-top: 4vh;
     margin-left: 2vh;
     background-color: #CCC;
-    background-image: url(../img/banner_02.jpg);
+    background-image: url(../img/Banner_02_01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -10vh;
@@ -56,9 +59,39 @@ footer{
     padding: 2vh;
 }
 
-/* SImular a pagina */ 
-#Pagina{
+.Cards_Porta{
+    height: 60vh;
     width: 100%;
-    height: 40vh;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
 }
 
+.Card{
+    transition: all 0.9s;
+    height: 40vh;
+    width: 40vh;
+    background: rgb(56,162,186);
+    background: linear-gradient(128deg, rgba(56,162,186,1) 0%, rgba(35,30,112,1) 100%);
+    border-radius: 2vh;
+    padding: 2vh;
+    margin-left: 16vh;
+    margin-top: 2vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Card:hover{
+    transition: all 0.9s;
+    transform: scale(1.4);
+    z-index: 99;
+}
+
+.Card img{
+    height: 20vh;
+    width: 30vh;
+    background-color: bisque;
+}
+.Card h1{
+    font-size: 4vh;
+}
