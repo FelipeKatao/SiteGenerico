@@ -1,0 +1,43 @@
+
+/* Responsivo para o celular em pé */
+@media screen and (max-height:780px) and (max-width:380px){
+    .navPrincipal ul{
+        position: absolute;
+        margin-left: -5vh;
+    }
+    .navPrincipal ul li{
+        margin-left: 4vh;
+    }
+    .BannerPrincipal{
+        width: 45vh;
+        height: 70vh;
+        margin-left: 1vh;
+        background-position-x:-150vh;
+        background-size: auto;
+    }
+    .banner_tip{
+        margin-top: 44.6vh;
+        width: 41vh;
+    }
+    .Cards_Porta{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+        margin-left: -15vh;
+    }
+    footer{
+        margin-top: 80vh;
+    }
+}
+
+@media screen and (max-height:380px) and (max-width:780px){
+    .banner_tip{
+        margin-top: 44.6vh;
+        width:95%;
+        margin-top:12vh
+    }
+    .Card h3{
+        font-size: 4vh;
+        margin-top: 2vh;
+    }
+}
